@@ -25,7 +25,7 @@ int main(int argc, const char * argv[])
         
         while (true) {
             NSLog(@"loop");
-            [NSThread sleepForTimeInterval:3.0f];
+            [NSThread sleepForTimeInterval:60.0f];
         }
         
     }
